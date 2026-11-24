@@ -1,0 +1,12 @@
+-- lib-lang-lex: the `lang_lex` module — the `lex` meta function as a
+-- composable `plugin-lib-*` leaf crate. Transitional layout: the .hnl
+-- surface is `handl-packages/lang_lex/lang_lex.hnl`; the lexer stays
+-- Rust.
+{
+  modules: ["lang_lex"],
+  name: "lang_lex",
+  description: "The lex meta function — tokenize handl source into a token stream.",
+  license: "MIT",
+  keywords: ["lex", "meta", "tokenizer", "lang", "handl"],
+  homepage: "https://github.com/handl-lang/lib-lang-lex",
+}
