@@ -4,7 +4,7 @@
 -- Rust.
 {
   modules: ["lang_lex"],
-  name: "lang_lex",
+  name: "lang-lex",
   description: "The lex meta function — tokenize handl source into a token stream.",
   license: "MIT",
   keywords: ["lex", "meta", "tokenizer", "lang", "handl"],
