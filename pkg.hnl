@@ -2,6 +2,7 @@
 -- composable `plugin-lib-*` leaf crate. Transitional layout: the .hnl
 -- surface is `handl-packages/lang_lex/lang_lex.hnl`; the lexer stays
 -- Rust.
+-- test_coverage "none": comment-only interface decl — the lexer stays Rust.
 {
   modules: ["lang_lex"],
   name: "lang-lex",
@@ -9,4 +10,5 @@
   license: "MIT",
   keywords: ["lex", "meta", "tokenizer", "lang", "handl"],
   homepage: "https://github.com/handl-lang/lib-lang-lex",
+  test_coverage: "none",
 }
