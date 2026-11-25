@@ -11,7 +11,7 @@
 | `src/lib.rs`, `src/tests.rs` | the Rust crate |
 | `pkg.hnl` | package manifest |
 | `scripts/hnl-gate.sh` | shared hnl typecheck/lint/test gate |
-| `ci.sh` | bupha entry → hnl-gate.sh |
+| `workflows/gate.yaml` | bupha entry (handl-gates) |
 
 ## Contract
 
